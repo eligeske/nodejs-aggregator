@@ -36,6 +36,12 @@ function myRequest(req,res){
     var urlParsed = url.parse(req.url, true);
     var path = urlParsed.pathname;
 
+	
+	
+	
+
+
+
     switch(path) {
       case '/aggregate':
         //extract search predicate
