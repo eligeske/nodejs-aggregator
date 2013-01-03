@@ -81,7 +81,7 @@ console.log('Server running at http://127.0.0.1:3000/'); // server start up mess
 var getItemsFromPath = function(data,itemsPath){
 	eval("ret = data."+itemsPath);
 	return ret;
-}
+} 
 
 var feedMe = function(req,res, feeds, callback){
 	var self = that = this;
