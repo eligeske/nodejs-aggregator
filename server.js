@@ -12,6 +12,8 @@ var util = require('util'),
 	fs = require('fs'),
 	xml2js = require('./node_modules/xml2js/lib/xml2js');
 
+var test = "";
+
 // LOAD TEMPLATE
 var searchResHamlTemplate = fs.readFileSync('./templates/search-res.haml').toString();
 var parser = new feedparser();
